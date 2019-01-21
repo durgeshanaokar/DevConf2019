@@ -1,0 +1,2 @@
+CREATE SEQUENCE FRUIT_ID_SEQ;
+CREATE TABLE fruit(id INT default FRUIT_ID_SEQ.nextval primary key ,name VARCHAR(50) NOT NULL);
